@@ -20,7 +20,7 @@ def write_msg_with_img(user_id, message, images):
     vk.messages.send(user_id=user_id, random_id = random.getrandbits(64), attachment=','.join(attachments), message=message)
     
 # API-ключ созданный ранее
-token = '2468ecf107899cfc8af9553dd7da3db7807fad5c859f6d50e8a6fa4a31d9c3b76c691f8a23cbe67a06b49'
+token = ''
 
 # Авторизуемся как сообщество
 vk_session = vk_api.VkApi(token=token)
